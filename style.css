@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2a2a2a;
+  font-family: sans-serif;
+}
+
+.countdown-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+.countdown-container h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.countdown-container p {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #ff4081;
+}
+
+#countdown {
+  font-size: 80px;
+  font-weight: bold;
+  /* ทำ gradient สีชมพูไปน้ำเงิน */
+  background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.countdown-container p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #eb5237;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
